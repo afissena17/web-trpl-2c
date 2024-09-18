@@ -1,37 +1,36 @@
-			body{
-				font-family: arial;
-			}
-			
-			.header{
-				background-color: orange;
-				color: white;
-				text-align: center;
-				padding: 50px;
-			}
-			
-			.sidebar{
-				background-color: brown;
-				color: white;
-				height: 500px;
-				width: 20%;
-				padding: 20px;
-				float: left;
-			}
-			
-			.content{
-				background-color: white;
-				color: black;
-				height: 500px;
-				width: 60%;
-				padding: 20px;
-				float: left;
-			}
-			
-			.footer{
-				background-color: orange;
-				color: white;
-				text-align: center;
-				padding: 15px;
-				clear: both;
-			}
-			
+		body {
+			font-family: arial;
+		}
+		.header { 				
+			background-color: blue; 				
+			color: white; 				
+			text-align: center; 				
+			padding: 25px; 			
+		  } 
+		.sidebar { 		
+			padding:15px;
+			background-color: cyan; 				
+			color: white; 				 				
+			height: 300px; 				
+			width: 25%; 				
+			float: left;
+		  }
+		.ulnav {
+			list-style-type: none;
+			margin : 0;
+			padding:0;
+		  }  
+		.content { 						
+			Padding : 15px;
+			color:black; 						
+			height: 300px;
+			width: 70%;			
+			float: left;
+		  } 		  
+		.footer { 				
+			background-color: blue; 				
+			color: white; 				
+			text-align: center; 				
+			padding: 15px; 
+			clear : both;
+		  } 
